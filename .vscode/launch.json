@@ -36,7 +36,7 @@
       "runtimeVersion": "default",
       "program": "${workspaceFolder}/dist/index.js",
       "args": [
-        "--awaited-error-handled"
+        "--unawaited-error-handled"
       ]
     }
   ]

@@ -54,7 +54,7 @@ const awaited = async () => {
         await awaited();
         break;
       }
-      case '--awaited-error-handled': {
+      case '--unawaited-error-handled': {
         /**
          * Note that this is an "unawaited" promise with a `.catch` handler, so it will throw an error that is handled inside of the `.catch` handler.
          */
@@ -68,7 +68,7 @@ const awaited = async () => {
       }
       default: {
         throw new Error(
-          `[${test.name}] invalid mode: ${mode}. Valid modes are: --unawaited, --awaited, --awaited-error-handled`
+          `[${test.name}] invalid mode: ${mode}. Valid modes are: --unawaited, --awaited, --unawaited-error-handled`
         );
       }
     }
