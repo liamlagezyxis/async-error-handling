@@ -9,6 +9,9 @@
       "type": "node",
       "runtimeVersion": "default",
       "program": "${workspaceFolder}/dist/index.js",
+      "env": {
+        "NODE_OPTIONS": "--enable-source-maps"
+      },
       "args": [
         "--awaited"
       ]
@@ -22,6 +25,9 @@
       "type": "node",
       "runtimeVersion": "default",
       "program": "${workspaceFolder}/dist/index.js",
+      "env": {
+        "NODE_OPTIONS": "--enable-source-maps"
+      },
       "args": [
         "--unawaited"
       ]
@@ -35,6 +41,9 @@
       "type": "node",
       "runtimeVersion": "default",
       "program": "${workspaceFolder}/dist/index.js",
+      "env": {
+        "NODE_OPTIONS": "--enable-source-maps"
+      },
       "args": [
         "--unawaited-error-handled"
       ]

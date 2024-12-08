@@ -1,6 +1,6 @@
 {
   "name": "asynchronous-error-handling",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "exports": "./dist/index.js",
   "private": true,
@@ -18,8 +18,5 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
-  },
-  "dependencies": {
-    "source-map-support": "^0.5.21"
   }
 }
