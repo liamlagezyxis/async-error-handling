@@ -18,8 +18,5 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
-  },
-  "dependencies": {
-    "source-map-support": "^0.5.21"
   }
 }

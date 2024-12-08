@@ -1,4 +1,3 @@
-import 'source-map-support/register.js';
 import { logTick, sleep } from './utils.js';
 
 /**
