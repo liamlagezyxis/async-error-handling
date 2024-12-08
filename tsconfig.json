@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    /* If NOT transpiling with TypeScript: */
+    // "module": "preserve",
+    // "noEmit": true,
+    /* If transpiling with tsc */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    /* If your code doesn't run in the DOM: */
+    "lib": [
+      "ESNext",
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "stripInternal": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    // "declarationDir": "dist/types",
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "buildOptions": {},
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

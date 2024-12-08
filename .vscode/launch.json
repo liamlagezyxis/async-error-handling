@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "name": "Awaited",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+      "runtimeVersion": "default",
+      "program": "${workspaceFolder}/dist/index.js",
+      "args": [
+        "--awaited"
+      ]
+    },
+    {
+      "name": "Non-Awaited",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+      "runtimeVersion": "default",
+      "program": "${workspaceFolder}/dist/index.js",
+      "args": [
+        "--unawaited"
+      ]
+    },
+    {
+      "name": "Non-Awaited with Error Handling",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+      "runtimeVersion": "default",
+      "program": "${workspaceFolder}/dist/index.js",
+      "args": [
+        "--awaited-error-handled"
+      ]
+    }
+  ]
+}
